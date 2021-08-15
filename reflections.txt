@@ -1,0 +1,27 @@
+Part 3: Image rotation (15 pts question, 20 pts code)
+What should the size of the outputted char array be?
+
+what happens to the first row?
+
+what happens to the first column?
+
+if the image width is 4, and the height is 4, where does the pixel at 2,1 go?
+
+in general, if a pixel in an image that is width of w and height h, where does the pixel at position i,j go to in the new array
+
+Part 4: Image resizing
+clarifying questions (5 pts)
+
+
+Walk through an example (5 pts)
+
+
+List edge cases(5 pts)
+
+
+Describe approach as you would to a little cousin who does not know anything about computer science terms (15 pts)
+
+
+Based off your description, identify keywords that hint what ds&a you should use in your implementation (5 pts)
+
+List 3 test cases based off edge cases, write tests (15 pts)
