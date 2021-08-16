@@ -11,15 +11,58 @@ public class Image {
   }
   // Part 1
   public char[][] getBlackWhiteAscii(){
-    return new char[1][1];
+    char[][] rtn = new char[image.length][image[0].length];
+    for(int i=0; i<image.length; i++){
+      for(int j=0; j<image[i].length; j++){
+        //System.out.print(image[i][j]);
+        if(image[i][j]<= 128) rtn[i][j] = 'X';
+        else rtn[i][j] = ' ';
+      }
+      //System.out.println();
+    }
+    return rtn;
   }
   // Part 2
   public char[][] getGreyAscii(){
-    return new char[1][1];
+    char[][] rtn = new char[image.length][image[0].length];
+    for(int i=0; i<image.length; i++){
+      for(int j=0; j<image[i].length; j++){
+        //System.out.print(image[i][j]);
+        if(image[i][j]<= 25) rtn[i][j] = 'M';
+        else if(image[i][j]<= 50) rtn[i][j] = '$';
+        else if(image[i][j]<= 76) rtn[i][j] = 'o';
+        else if(image[i][j]<= 102) rtn[i][j] = '|';
+        else if(image[i][j]<= 127) rtn[i][j] = '*';
+        else if(image[i][j]<= 152) rtn[i][j] = ':';
+        else if(image[i][j]<= 178) rtn[i][j] = '=';
+        else if(image[i][j]<= 204) rtn[i][j] = '\'';
+        else if(image[i][j]<= 230) rtn[i][j] = '.';
+        else rtn[i][j] = ' ';
+      }
+      //System.out.println();
+    }
+    return rtn;
   }
   // Part 3
   public char[][] getRotatedGreyAscii(){
-    return new char[1][1];
+    char[][] rtn = new char[image[0].length][image.length];
+    for(int i=0; i<image.length; i++){
+      for(int j=0; j<image[i].length; j++){
+        //System.out.print(image[i][j]);
+        if(image[i][j]<= 25) rtn[j][image.length-i-1] = 'M';
+        else if(image[i][j]<= 50) rtn[j][image.length-i-1] = '$';
+        else if(image[i][j]<= 76) rtn[j][image.length-i-1] = 'o';
+        else if(image[i][j]<= 102) rtn[j][image.length-i-1] = '|';
+        else if(image[i][j]<= 127) rtn[j][image.length-i-1] = '*';
+        else if(image[i][j]<= 152) rtn[j][image.length-i-1] = ':';
+        else if(image[i][j]<= 178) rtn[j][image.length-i-1] = '=';
+        else if(image[i][j]<= 204) rtn[j][image.length-i-1] = '\'';
+        else if(image[i][j]<= 230) rtn[j][image.length-i-1] = '.';
+        else rtn[j][image.length-i-1] = ' ';
+      }
+      //System.out.println();
+    }
+    return rtn;
   } 
   // Part 4
   public char[][] getResizedGreyAscii(int newWidth,int newHeight){

@@ -2,16 +2,16 @@ class Main {
   
   public static void main(String[] args) {
     // Part 1
-    Image image = new Image("small_pup.png");
+    Image image = new Image("/Users/dfdeblasio/git_assignments/2401-f21/lab-2-acii-art-danfdeblasio/smile_small.jpeg");
     print(image.getBlackWhiteAscii()); 
     // Part 2
-    //System.out.println(image.getGreyAscii());
+    print(image.getGreyAscii());
     
     // Part 3
-    //System.out.println(image.getRotatedGreyAscii());
+    print(image.getRotatedGreyAscii());
     
     // Part 4
-    //System.out.println(image.getResizedGreyAscii(100,100));
+    print(image.getResizedGreyAscii(100,100));
   }
 
 
