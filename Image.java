@@ -36,8 +36,10 @@ public class Image {
         else if(image[i][j]<= 152) rtn[i][j] = ':';
         else if(image[i][j]<= 178) rtn[i][j] = '=';
         else if(image[i][j]<= 204) rtn[i][j] = '\'';
-        else if(image[i][j]<= 230) rtn[i][j] = '.';
-        else rtn[i][j] = ' ';
+        else if(image[i][j]<= 230){
+          rtn[i][j] = '.';
+          System.err.println(i + "," + j + " : " + image[i][j]);
+        }  else rtn[i][j] = ' ';
       }
       //System.out.println();
     }
