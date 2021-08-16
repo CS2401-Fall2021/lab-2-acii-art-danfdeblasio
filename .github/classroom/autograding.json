@@ -6,7 +6,7 @@
       "run": "java -cp . Test",
       "input": "bw",
       "output": "X X X X X X X X X X X X X X X X \r\nX X X X X X X X X X X X X X X X \r\nX X X X X X         X X X X X X \r\nX X X X                 X X X X \r\nX X X                     X X X \r\nX X   X X X X     X X X X   X X \r\nX     X     X     X     X     X \r\nX                             X \r\nX     X X X X X X X X X X     X \r\nX     X                 X     X \r\nX X   X                 X   X X \r\nX X     X             X     X X \r\nX X X     X X X X X X     X X X \r\nX X X X X             X X X X X \r\nX X X X X X X X X X X X X X X X \r\nX X X X X X X X X X X X X X X X ",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": null
     },
