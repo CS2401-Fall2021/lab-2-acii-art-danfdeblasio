@@ -15,7 +15,7 @@
       "setup": "javac *.java",
       "run": "java -cp . Test",
       "input": "gs",
-      "output": "M M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M \r\n$ M M M $ o : = = : | $ M M M M \r\nM M M * ' ' ' ' ' ' ' ' * M M M \r\nM M * . = = ' ' ' ' = = ' * M M \r\nM o ' | o o | ' ' | o o | ' o M \r\nM ' ' o ' = o = = o = ' o ' = M \r\n$ = ' ' = . ' ' ' ' ' ' ' ' = $ \r\n$ ' = o | | o | | o | o | = . M \r\nM ' : $ . ' . ' ' . ' . $ = ' M \r\nM | . | =             = | . o M \r\nM M = = $ :         : $ = = M M \r\nM M M : . | o | | o | ' : M M M \r\nM M M M o : = = = = : $ M M M M \r\nM M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M ",
+      "output": "M M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M \r\n$ M M M $ o : = = : | $ M M M M \r\nM M M * ' ' ' ' ' ' ' ' * M M M \r\nM M * . = = ' ' ' ' = = ' * M M \r\nM o ' | o o | ' ' | o o | ' o M \r\nM ' ' o ' = o = = o = ' o ' = M \r\n$ = ' ' = . ' ' ' ' ' ' ' ' = $ \r\n$ ' = o | * o | | o | | | = . $ \r\nM ' : $   ' . ' ' . ' . $ = ' M \r\nM | . | =             = | . | M \r\nM M = = $ :         : $ = = M M \r\nM M M : . | o | | o | ' : M M M \r\nM M M M o : = = = = : $ M M M M \r\nM M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M",
       "comparison": "included",
       "timeout": 10,
       "points": null
@@ -25,47 +25,7 @@
       "setup": "javac *.java",
       "run": "java -cp . Test",
       "input": "r",
-      "output": "M M M M M M M $ $ M M M M $ M M \r\nM M M M M | ' ' = ' o M M M M M \r\nM M M M = . : = ' ' ' * M M M M \r\nM M M : = | $ o ' o | . * M M M \r\nM M o . $ = . | = ' o = ' $ M M \r\nM M : | :   ' | . = o = ' o M M \r\nM M = o     . o ' o | ' ' : M M \r\nM M = |     ' | ' = ' ' ' = M M \r\nM M = |     ' | ' = ' ' ' = M M \r\nM M = o     . o ' o | ' ' : M M \r\nM M : | :   ' | ' = o = ' | M M \r\nM M $ ' $ = . o ' ' o = ' $ M M \r\nM M M : = | $ | ' o | ' * M M M \r\nM M M M = . = = ' ' ' * M M M M \r\nM M M M M o ' . = = o M M M M M \r\nM M M M M M M M $ M M M M M M M ",
-      "comparison": "included",
-      "timeout": 10,
-      "points": null
-    },
-    {
-      "name": "resize1",
-      "setup": "javac *.java",
-      "run": "java -cp . Test",
-      "input": "rz,0,0",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": null
-    },
-    {
-      "name": "resize2",
-      "setup": "javac *.java",
-      "run": "java -cp . Test",
-      "input": "rz,-1,-2",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": null
-    },
-    {
-      "name": "resize3",
-      "setup": "javac *.java",
-      "run": "java -cp . Test",
-      "input": "rz,10,20",
-      "output": "M M M M M M M M M M \r\nM M M M M M M M M M \r\nM M M M M M M M M M \r\n$ M M $ : = : $ M M \r\nM M * ' ' ' ' ' * M \r\nM M . = ' ' ' = ' M \r\nM M . = ' ' ' = ' M \r\nM o | o | ' | o | o \r\nM ' o ' o = o ' o = \r\n$ = ' = ' ' ' ' ' = \r\n$ ' o | o | o o | . \r\n$ ' o | o | o o | . \r\nM ' $ . . ' . . $ ' \r\nM | | =       = | o \r\nM M = $       $ = M \r\nM M : . o | o ' : M \r\nM M : . o | o ' : M \r\nM M M o = = = $ M M \r\nM M M M M M M M M M \r\nM M M M M M M M M M ",
-      "comparison": "included",
-      "timeout": 10,
-      "points": null
-    },
-    {
-      "name": "resize4",
-      "setup": "javac *.java",
-      "run": "java -cp . Test",
-      "input": "rz,50,50",
-      "output": "M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M \r\n$ $ $ $ M M M M M M M M M $ $ $ o o o : : : = = = = = = = : : : | | | $ $ $ M M M M M M M M M M M M \r\n$ $ $ $ M M M M M M M M M $ $ $ o o o : : : = = = = = = = : : : | | | $ $ $ M M M M M M M M M M M M \r\n$ $ $ $ M M M M M M M M M $ $ $ o o o : : : = = = = = = = : : : | | | $ $ $ M M M M M M M M M M M M \r\nM M M M M M M M M M * * * ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' * * * M M M M M M M M M \r\nM M M M M M M M M M * * * ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' * * * M M M M M M M M M \r\nM M M M M M M M M M * * * ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' * * * M M M M M M M M M \r\nM M M M M M M * * * . . . = = = = = = ' ' ' ' ' ' ' ' ' ' ' ' ' = = = = = = ' ' ' * * * M M M M M M \r\nM M M M M M M * * * . . . = = = = = = ' ' ' ' ' ' ' ' ' ' ' ' ' = = = = = = ' ' ' * * * M M M M M M \r\nM M M M M M M * * * . . . = = = = = = ' ' ' ' ' ' ' ' ' ' ' ' ' = = = = = = ' ' ' * * * M M M M M M \r\nM M M M o o o ' ' ' | | | o o o o o o | | | ' ' ' ' ' ' ' | | | o o o o o o | | | ' ' ' o o o M M M \r\nM M M M o o o ' ' ' | | | o o o o o o | | | ' ' ' ' ' ' ' | | | o o o o o o | | | ' ' ' o o o M M M \r\nM M M M o o o ' ' ' | | | o o o o o o | | | ' ' ' ' ' ' ' | | | o o o o o o | | | ' ' ' o o o M M M \r\nM M M M ' ' ' ' ' ' o o o ' ' ' = = = o o o = = = = = = = o o o = = = ' ' ' o o o ' ' ' = = = M M M \r\nM M M M ' ' ' ' ' ' o o o ' ' ' = = = o o o = = = = = = = o o o = = = ' ' ' o o o ' ' ' = = = M M M \r\nM M M M ' ' ' ' ' ' o o o ' ' ' = = = o o o = = = = = = = o o o = = = ' ' ' o o o ' ' ' = = = M M M \r\n$ $ $ $ = = = ' ' ' ' ' ' = = = . . . ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' = = = $ $ $ \r\n$ $ $ $ = = = ' ' ' ' ' ' = = = . . . ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' = = = $ $ $ \r\n$ $ $ $ = = = ' ' ' ' ' ' = = = . . . ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' = = = $ $ $ \r\n$ $ $ $ ' ' ' = = = o o o | | | | | | o o o | | | | | | | o o o | | | o o o | | | = = = . . . M M M \r\n$ $ $ $ ' ' ' = = = o o o | | | | | | o o o | | | | | | | o o o | | | o o o | | | = = = . . . M M M \r\n$ $ $ $ ' ' ' = = = o o o | | | | | | o o o | | | | | | | o o o | | | o o o | | | = = = . . . M M M \r\n$ $ $ $ ' ' ' = = = o o o | | | | | | o o o | | | | | | | o o o | | | o o o | | | = = = . . . M M M \r\nM M M M ' ' ' : : : $ $ $ . . . ' ' ' . . . ' ' ' ' ' ' ' . . . ' ' ' . . . $ $ $ = = = ' ' ' M M M \r\nM M M M ' ' ' : : : $ $ $ . . . ' ' ' . . . ' ' ' ' ' ' ' . . . ' ' ' . . . $ $ $ = = = ' ' ' M M M \r\nM M M M ' ' ' : : : $ $ $ . . . ' ' ' . . . ' ' ' ' ' ' ' . . . ' ' ' . . . $ $ $ = = = ' ' ' M M M \r\nM M M M | | | . . . | | | = = =                                       = = = | | | . . . o o o M M M \r\nM M M M | | | . . . | | | = = =                                       = = = | | | . . . o o o M M M \r\nM M M M | | | . . . | | | = = =                                       = = = | | | . . . o o o M M M \r\nM M M M M M M = = = = = = $ $ $ : : :                           : : : $ $ $ = = = = = = M M M M M M \r\nM M M M M M M = = = = = = $ $ $ : : :                           : : : $ $ $ = = = = = = M M M M M M \r\nM M M M M M M = = = = = = $ $ $ : : :                           : : : $ $ $ = = = = = = M M M M M M \r\nM M M M M M M M M M : : : . . . | | | o o o | | | | | | | o o o | | | ' ' ' : : : M M M M M M M M M \r\nM M M M M M M M M M : : : . . . | | | o o o | | | | | | | o o o | | | ' ' ' : : : M M M M M M M M M \r\nM M M M M M M M M M : : : . . . | | | o o o | | | | | | | o o o | | | ' ' ' : : : M M M M M M M M M \r\nM M M M M M M M M M M M M o o o : : : = = = = = = = = = = = = = : : : $ $ $ M M M M M M M M M M M M \r\nM M M M M M M M M M M M M o o o : : : = = = = = = = = = = = = = : : : $ $ $ M M M M M M M M M M M M \r\nM M M M M M M M M M M M M o o o : : : = = = = = = = = = = = = = : : : $ $ $ M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M \r\nM M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M ",
+      "output": "M M M M M M M $ $ M M M M $ M M \r\nM M M M M | ' ' = ' o M M M M M \r\nM M M M = . : = ' ' ' * M M M M \r\nM M M : = | $ o ' o | . * M M M \r\nM M o . $ =   | = ' o = ' $ M M \r\nM M : | :   ' * . = o = ' o M M \r\nM M = o     . o ' o | ' ' : M M \r\nM M = |     ' | ' = ' ' ' = M M \r\nM M = |     ' | ' = ' ' ' = M M \r\nM M = o     . o ' o | ' ' : M M \r\nM M : | :   ' | ' = o = ' | M M \r\nM M $ ' $ = . | ' ' o = ' $ M M \r\nM M M : = | $ | ' o | ' * M M M \r\nM M M M = . = = ' ' ' * M M M M \r\nM M M M M | ' . = = o M M M M M \r\nM M M M M M M $ $ M M M M M M M ",
       "comparison": "included",
       "timeout": 10,
       "points": null
